@@ -1,6 +1,8 @@
 # ByPassUACTools
 
-![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Author](https://img.shields.io/badge/Author-xiaoxiong-blueviolet) ![Bin](https://img.shields.io/badge/ByPassUACTools-Bin-ff69b4)  ![build](https://img.shields.io/badge/build-passing-green.svg)  ![language](https://img.shields.io/badge/language-C-blue.svg)
+![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Author](https://img.shields.io/badge/Author-xiaoxiong-blueviolet)  
+
+![Bin](https://img.shields.io/badge/ByPassUACTools-Bin-ff69b4)  ![build](https://img.shields.io/badge/build-passing-green.svg)  ![language](https://img.shields.io/badge/language-C-blue.svg)
 
 ### 简介
 
@@ -77,13 +79,13 @@ beacon> shell dir C:\test.txt
 - 通过bypassuactools执行特定命令
 
 ```
-bypassuactools "C:\Windows\System32\cmd.exe --parmas /c echo test > C:\test.txt"
+beacon> bypassuactools "C:\Windows\System32\cmd.exe --parmas /c echo test > C:\test.txt"
 ```
 
 - 确认执行成果
 
 ```
-shell type C:\test.txt
+beacon> shell type C:\test.txt
 ```
 
 <img src="imgs/image-20220328143949418.png" alt="image-20220328143949418" style="zoom:25%;" />
@@ -141,3 +143,5 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\S
 ```
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v "PromptOnSecureDesktop" /t reg_dword /d 0 /F
 ```
+
+
