@@ -1,8 +1,6 @@
 # ByPassUACTools
 
-![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Author](https://img.shields.io/badge/Author-xiaoxiong-blueviolet)  
-
-![Bin](https://img.shields.io/badge/ByPassUACTools-Bin-ff69b4)  ![build](https://img.shields.io/badge/build-passing-green.svg)  ![language](https://img.shields.io/badge/language-C-blue.svg)
+![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Author](https://img.shields.io/badge/Author-xiaoxiong-blueviolet) ![Bin](https://img.shields.io/badge/ByPassUACTools-Bin-ff69b4)  ![build](https://img.shields.io/badge/build-passing-green.svg)  ![language](https://img.shields.io/badge/language-C-blue.svg)
 
 ### 简介
 
